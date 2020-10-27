@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: lato;
+	background:lightskyblue;
+	
+	
+}
+.gridcontainer{
+	animation: up 2s ;
+	height: 115vh;
+	display: grid;
+	background: rgba(201, 90, 90, 0.2);
+	position: relative;
+	grid-template-rows:  12vh auto 8vh;
+	grid-template-columns:  12vh auto 30vh;
+	grid-template-areas:  
+				"h h h"
+				"s s s"
+				"f f f";
+    text-shadow: 4px 3px 6px rgb(253, 0, 0);		
+}
+
+.Box_Container_item{		/* style for box item*/
+	grid-area: s;
+	background:linear-gradient(rgb(29, 116, 187),rgb(70, 230, 222),#ffffff);
+	color:white;
+	width: 100vh;
+	height: 80vh;
+	outline: none;
+	border-radius: 50px;
+	position: absolute;
+	right:0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	grid-area:s;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+
+.Box_icon_img{
+    position: center;
+    margin-left: 32vh;
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    align-items: center;
+}
+.BTN{
+width: 50%;
+height: 10vh;
+padding: 7px;
+border-radius: 3px;
+margin-top: 10px;
+margin-left: 25vh; 
+background:  rgb(180, 180, 180,0.2);
+color: black;
+cursor: pointer;
+outline: none;
+font-size: 26px	
+}
+.BTN:hover{
+	background:linear-gradient(#ffffff, rgb(29, 116, 187),rgb(70, 230, 222));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
